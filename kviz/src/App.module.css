@@ -1,0 +1,138 @@
+* {
+    font-family: "Roboto", Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bangers", "Comic Sans MS";
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+
+html, body, div, section {
+    padding: 0;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    background: #512B81;
+}
+
+.content {
+    flex-grow: 1;
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background: #35155D;
+    color: #fff;
+    min-height: calc(100vh - 60px)
+}
+
+.currentGameScreen {
+    padding: 0 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.currentGameScreen .intro {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.currentGameScreen .koZnaZna {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.intro h1 {
+    font-size: 120px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.button {
+    padding: 10px 20px;
+    background: #068FFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-family: "Bangers", "Comic Sans MS";
+    letter-spacing: 2px;
+    font-size: 20px;
+    -webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.asocijacije * {
+    font-family: "Bangers", "Comic Sans MS";
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+.colsContainer {
+    display: flex;
+    gap: 15px;
+    padding: 10px
+}
+
+.column {
+    padding: 10px;
+    background: #7143bc;
+    -webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+}
+.column  * {
+    -webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.75);
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+.column > div {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.column > div:hover {
+    background: #8384d7;
+}
+.column > div.open {
+    background: #9c9de6;
+}
+.column > div.solved {
+    background: #84c98f;
+}
+.column.finalCol {
+    width: 100%;
+    display: flex;
+}
+.column .final {
+    flex-grow: 1;
+    text-align: center;
+}

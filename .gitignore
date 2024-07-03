@@ -1,0 +1,112 @@
+# Ignore node_modules directories at all levels
+node_modules/
+**/node_modules/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+
+# Visual Studio Code
+.vscode/
+**/.vscode/
+
+# Visual Studio
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+**/*.sublime-project
+**/*.sublime-workspace
+
+# IntelliJ IDEA
+.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.metadata/
+**/.metadata/
+*.log
+*.bak
+*.swp
+
+# NetBeans
+nbproject/
+**/nbproject/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# JetBrains Rider
+.idea/
+**/.idea/
+*.sln.iml
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Atom
+.atom/
+**/.atom/
+*.atom
+.atom/packages/
+
+# WebStorm
+.idea/
+**/.idea/
+*.idea
+*.wswiml
+
+# PhpStorm
+.idea/
+**/.idea/
+*.phpstorm.workspace
+
+# Android Studio
+.idea/
+**/.idea/
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# Other editors and IDEs
+*.komodoproject
+*.komodotool
+config.codekit3
+config.codekit2
+.turbo
+**/.turbo
+.zeplin
+**/.zeplin
+.nuke/
+**/.nuke/
+code-workspace/
+**/code-workspace/
